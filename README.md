@@ -87,21 +87,26 @@ Here is a visualization of the architecture (note: visualizing the architecture 
 
 To capture good driving behavior, I first recorded two laps on track one using center lane driving. Here is an example image of center lane driving:
 
-![alt text][image2]
+<img src="examples/center.jpg" width="500" />
 
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to keep itself in the center. 
 These images show what a recovery looks like starting from right to center :
 
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
+<div class="test">
+<img src="examples/center_2018_05_19_10_44_10_311.jpg" width="200" />
+<img src="examples/center_2018_05_19_10_44_10_411.jpg" width="200" />
+<img src="examples/center_2018_05_19_10_44_10_516.jpg" width="200" />
+</div>
+ 
 
 
 To augment the data sat, I also run the vehicle in the reverse direction:
 
-![alt text][image6]
-![alt text][image7]
+<div class="test">
+<img src="examples/cropbefor.jpg" width="200" />
+<img src="examples/cropafter.jpg" width="200" />
 
+</div>
 
 After the collection process, I had 56697 number of data points.  
 
