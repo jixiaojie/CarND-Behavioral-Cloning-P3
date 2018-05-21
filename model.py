@@ -103,8 +103,8 @@ def getdata(samples):
     X_train = np.array(images)
     y_train = np.array(angles)
 
-    return sklearn.utils.shuffle(X_train, y_train)
-    #return X_train, y_train
+    #return sklearn.utils.shuffle(X_train, y_train)
+    return X_train, y_train
 
 
 
