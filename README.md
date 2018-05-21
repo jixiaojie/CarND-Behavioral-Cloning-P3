@@ -104,7 +104,7 @@ To augment the data sat, I also run the vehicle in the reverse direction:
 
 <div class="test">
 <img src="examples/cropbefor.jpg" width="200" />
-<img src="examples/cropafter.jpg" width="200" />
+<img src="examples/cropafter01.jpg" width="200" />
 
 </div>
 
