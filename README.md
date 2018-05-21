@@ -81,7 +81,7 @@ The final model architecture (model.py lines 133-151) consisted of a convolution
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
-![alt text][image1]
+<img src="examples/nvidiamodel.png" width="500" />
 
 #### 3. Creation of the Training Set & Training Process
 
