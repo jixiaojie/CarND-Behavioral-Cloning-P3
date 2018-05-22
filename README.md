@@ -53,7 +53,7 @@ The model.py file contains the code for training and saving the convolution neur
 
 My model consists of a convolution neural network with 5x5 filter sizes and depths between 24 and 64 (model.py lines 133-151) 
 
-The model includes RELU layers to introduce nonlinearity , and the data is normalized in the model using a Keras lambda layer (code line 128). 
+The model includes RELU layers to introduce nonlinearity , and the data is normalized in the model using a Keras lambda layer (code line 125). 
 
 #### 2. Attempts to reduce overfitting in the model
 
