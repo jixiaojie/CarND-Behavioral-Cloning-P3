@@ -110,29 +110,6 @@ The final model architecture (model.py lines 133-151) consisted of a convolution
 |dense_5 (Dense)    |      |    (None, 1)    |             11     |
 
 
-
-| Layer         		|     Description	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Input         		| 32x32x3 RGB image   							| 
-| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 28x28x6 	|
-| RELU					|												|
-| Avg pooling 2x2	      	| 1x1 stride,  outputs 27x27x6 				|
-| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 23x23x16 	|
-| RELU					|												|
-| Max pooling	2x2      	| 1x1 stride,  outputs 22x22x16 				|
-| Convolution 5x5     	| 1x1 stride, VALID padding, outputs 18x18x32 	|
-| RELU					|												|
-| Max pooling	2x2      	| 2x2 stride,  outputs 9x9x32 				|
-| Fully Connected     	| Input = 2592. Output = 1024 				|
-| RELU					|												|
-| Fully Connected     	| Input = 1024. Output = 512 				|
-| RELU					|												|
-| Fully Connected     	| Input = 512. Output = 43 				|
-| RELU					|												|
-| Argmax         		| Input = 43. Output = 1    							| 
-| Output         		|  Output = 1 							| 
-
-
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
 
 <img src="examples/nvidiamodel.png" width="500" />
