@@ -78,11 +78,10 @@ The overall strategy for deriving a model architecture was to use NVIDIA's model
 #### 2. Final Model Architecture
 
 The final model architecture (model.py lines 133-151) consisted of a convolution neural network with the following layers:
+
 |Layer         |          Output Shape       |       Param   |
 |:---------------------:|:---------------------------------------------:|:---------------------:|
 |lambda_1 (Lambda)       |    (None, 160, 320, 3)    |   0         |
-
-
 |cropping2d_1 (Cropping2D)|    (None, 90, 320, 3)    |    0         |
 |conv2d_1 (Conv2D)    |    |    (None, 86, 316, 24)    |   1824      |
 |max_pooling2d_1 (MaxPooling2 (None, 43, 158, 24)    |   0         |
