@@ -140,7 +140,7 @@ To augment the data sat, I also run the vehicle in the reverse direction:
 
 </div>
 
-After the collection process, I had 56697 number of data points.  
+After the collection process, I had 55887 number of data points.  
 
 
 I finally randomly shuffled the data set and put 80% of the data into a validation set. 
