@@ -81,33 +81,34 @@ The final model architecture (model.py lines 133-151) consisted of a convolution
 
 |Layer         |          Output Shape       |       Param   |
 |:---------------------:|:---------------------------------------------:|:---------------------:|
-|lambda_1 (Lambda)       |    (None, 160, 320, 3)    |   0         |
-|cropping2d_1 (Cropping2D)|    (None, 90, 320, 3)    |    0         |
-|conv2d_1 (Conv2D)    |    |    (None, 86, 316, 24)    |   1824      |
-|max_pooling2d_1 (MaxPooling2 (None, 43, 158, 24)    |   0         |
-|activation_1 (Activation)|    (None, 43, 158, 24)    |   0         |
-|conv2d_2 (Conv2D)    |    |    (None, 39, 154, 36)    |   21636     |
-|max_pooling2d_2 (MaxPooling2 (None, 20, 77, 36)    |    0         |
-|activation_2 (Activation)|    (None, 20, 77, 36)    |    0         |
-|conv2d_3 (Conv2D)    |    |    (None, 16, 73, 48)    |    43248     |
-|max_pooling2d_3 (MaxPooling2 (None, 8, 37, 48)    |     0         |
-|activation_3 (Activation)|    (None, 8, 37, 48)    |     0         |
-|conv2d_4 (Conv2D)    |    |    (None, 6, 35, 64)    |     27712     |
-|max_pooling2d_4 (MaxPooling2 (None, 3, 18, 64)    |     0         |
-|activation_4 (Activation)|    (None, 3, 18, 64)    |     0         |
-|conv2d_5 (Conv2D)    |    |    (None, 1, 16, 64)    |     36928     |
-|max_pooling2d_5 (MaxPooling2 (None, 1, 8, 64)    |      0         |
-|activation_5 (Activation)|    (None, 1, 8, 64)    |      0         |
-|flatten_1 (Flatten)    |  |    (None, 512)    |           0         |
-|dense_1 (Dense)    |      |    (None, 1164)    |          597132    |
-|activation_6 (Activation)|    (None, 1164)    |          0         |
-|dense_2 (Dense)    |      |    (None, 100)    |           116500    |
-|activation_7 (Activation)|    (None, 100)    |           0         |
-|dense_3 (Dense)    |      |    (None, 50)    |            5050      |
-|activation_8 (Activation)|    (None, 50)    |            0         |
-|dense_4 (Dense)    |      |    (None, 10)    |            510       |
-|activation_9 (Activation)|    (None, 10)    |            0         |
-|dense_5 (Dense)    |      |    (None, 1)    |             11     |
+|lambda_1 (Lambda)          |  (None, 160, 320, 3)   |    0          |
+| cropping2d_1 (Cropping2D)  |  (None, 90, 320, 3)   |     0          |
+| conv2d_1 (Conv2D)          |  (None, 86, 316, 24)  |     1824       |
+| max_pooling2d_1 (MaxPooling2 | (None, 43, 158, 24) |      0          |
+| activation_1 (Activation)  |  (None, 43, 158, 24)  |     0          |
+| conv2d_2 (Conv2D)          |  (None, 39, 154, 36)  |     21636      |
+| max_pooling2d_2 (MaxPooling2 | (None, 20, 77, 36)  |      0          |
+| activation_2 (Activation)  |  (None, 20, 77, 36)   |     0          |
+| conv2d_3 (Conv2D)          |  (None, 16, 73, 48)   |     43248      |
+| max_pooling2d_3 (MaxPooling2 | (None, 8, 37, 48)   |      0          |
+| activation_3 (Activation)  |  (None, 8, 37, 48)    |     0          |
+| conv2d_4 (Conv2D)          |  (None, 6, 35, 64)    |     27712      |
+| max_pooling2d_4 (MaxPooling2 | (None, 3, 18, 64)   |      0          |
+| activation_4 (Activation)  |  (None, 3, 18, 64)    |     0          |
+| conv2d_5 (Conv2D)          |  (None, 1, 16, 64)    |     36928      |
+| max_pooling2d_5 (MaxPooling2 | (None, 1, 8, 64)    |      0          |
+| activation_5 (Activation)  |  (None, 1, 8, 64)     |     0          |
+| flatten_1 (Flatten)        |  (None, 512)          |     0          |
+| dense_1 (Dense)            |  (None, 1164)         |     597132     |
+| activation_6 (Activation)  |  (None, 1164)         |     0          |
+| dense_2 (Dense)            |  (None, 100)          |     116500     |
+| activation_7 (Activation)  |  (None, 100)          |     0          |
+| dense_3 (Dense)            |  (None, 50)           |     5050       |
+| activation_8 (Activation)  |  (None, 50)           |     0          |
+| dense_4 (Dense)            |  (None, 10)           |     510        |
+| activation_9 (Activation)  |  (None, 10)           |     0          |
+| dense_5 (Dense)            |  (None, 1)            |     11         |
+| 
 
 
 Here is a visualization of the architecture (note: visualizing the architecture is optional according to the project rubric)
