@@ -18,7 +18,7 @@ samples = []
 with open('./driving_log.csv') as csvfile:
     reader = csv.reader(csvfile)
     for line in reader:
-        #if steering value large than 0.6 , do not use to train set 
+        #if steering value large than 0.98 , do not use to train set 
         if abs(float(line[3])) <= 0.98:
             line[0] = line[0].replace('\\','/')
             line[1] = line[1].replace('\\','/')
@@ -110,7 +110,7 @@ def getdata(samples):
 print('Loading train data , total ', len(train_samples) * 3)
 X_train, y_train = getdata(train_samples)
 print()
-print('Loading train data , total ', len(validation_samples) * 3)
+print('Loading vlidation data , total ', len(validation_samples) * 3)
 X_valid, y_valid = getdata(validation_samples)
 
 
